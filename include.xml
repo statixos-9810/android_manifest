@@ -15,7 +15,7 @@
           fetch="https://gitlab.com/" />
 
   <!-- Build -->
-  <project path="build/make" name="android_build" remote="statix" groups="pdk" >
+  <project path="build/make" name="statixos-9810/android_build" revision="tm" remote="github" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
