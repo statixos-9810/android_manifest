@@ -85,6 +85,7 @@
   <project path="system/core" name="android_system_core" remote="statix" />
   <project path="system/libhidl" name="android_system_libhidl" remote="statix" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="statix" />
+  <project path="system/tools/mkbootimg" name="ArrowOS/android_system_tools_mkbootimg" revision="arrow-13.0" remote="github" />
 
   <!-- Tools -->
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="statix" />
