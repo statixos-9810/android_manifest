@@ -24,7 +24,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="android_build_soong" remote="statix" groups="pdk,tradefed" >
+  <project path="build/soong" name="statixos-9810/android_build_soong" revision="tm" remote="github" groups="pdk,tradefed" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
